@@ -1,0 +1,2 @@
+pca_handler = PCA(target_explained_variance=0.99)
+Reduced_Data = pca_handler.fit(Original_Data)
